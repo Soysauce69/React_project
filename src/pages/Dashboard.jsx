@@ -9,6 +9,7 @@ import {
   Activity,
   Crown,
 } from 'lucide-react'
+import Footer from '../components/Footer'
 
 const stats = [
   {
@@ -118,7 +119,8 @@ const matchColors = {
 
 export default function Dashboard() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-8 space-y-8">
+    <>
+      <div className="max-w-7xl mx-auto px-6 py-8 space-y-8">
 
       {/* HERO SECTION */}
 
@@ -569,8 +571,10 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-      </section>
-    </div>
-  )
-}
+       </section>
+     </div>
+     <Footer />
+   </>
+ )
+ }
 
