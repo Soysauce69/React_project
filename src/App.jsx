@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 
 import Dashboard from './pages/Dashboard'
 import Matches from './pages/Matches'
+import Analytics from './pages/Analytics'
 
 export default function App() {
   return (
@@ -16,6 +17,11 @@ export default function App() {
         <Route
           path="/matches"
           element={<Matches />}
+        />
+
+        <Route
+          path="/analytics"
+          element={<Analytics />}
         />
       </Routes>
     </div>
