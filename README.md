@@ -82,7 +82,7 @@ Track coding progress like cricket statistics, complete missions, unlock badges,
 ---
 
 # 📂 Project Structure
-'''
+```
 src/
 │
 ├── components/
@@ -104,5 +104,5 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-'''
+```
 
