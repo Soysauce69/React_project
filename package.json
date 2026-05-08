@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "npm run dev --prefix backend",
     "build": "vite build"
   },
   "dependencies": {
