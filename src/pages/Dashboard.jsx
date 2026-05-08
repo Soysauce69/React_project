@@ -246,7 +246,7 @@ export default function Dashboard() {
               <div className="absolute inset-0 rounded-full border-[12px] border-zinc-200" />
 
               <div
-                className="absolute inset-0 rounded-full border-[12px] border-emerald-500 border-t-transparent rotate-45"
+                className="absolute inset-0 rounded-full border-[12px] border-emerald-500 border-t-transparent"
               />
 
               <div className="text-center">
